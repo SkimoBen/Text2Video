@@ -11,6 +11,7 @@
 		F7448DA72A631E8C00761254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7448DA62A631E8C00761254 /* ContentView.swift */; };
 		F7448DA92A631E8E00761254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7448DA82A631E8E00761254 /* Assets.xcassets */; };
 		F7448DAC2A631E8E00761254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7448DAB2A631E8E00761254 /* Preview Assets.xcassets */; };
+		F7448DB32A631EF400761254 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7448DB22A631EF400761254 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F7448DA62A631E8C00761254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7448DA82A631E8E00761254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7448DAB2A631E8E00761254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7448DB22A631EF400761254 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F7448DA42A631E8C00761254 /* Text2VideoApp.swift */,
 				F7448DA62A631E8C00761254 /* ContentView.swift */,
+				F7448DB22A631EF400761254 /* Model.swift */,
 				F7448DA82A631E8E00761254 /* Assets.xcassets */,
 				F7448DAA2A631E8E00761254 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7448DB32A631EF400761254 /* Model.swift in Sources */,
 				F7448DA72A631E8C00761254 /* ContentView.swift in Sources */,
 				F7448DA52A631E8C00761254 /* Text2VideoApp.swift in Sources */,
 			);
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = N72URDRC88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the video to photos? ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = N72URDRC88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the video to photos? ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
